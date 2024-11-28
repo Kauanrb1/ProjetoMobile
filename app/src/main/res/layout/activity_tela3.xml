@@ -8,5 +8,14 @@
     tools:context=".Tela3">
 
 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/estetify"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="774dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
