@@ -25,30 +25,30 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Button button2 = findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
+        TextView text3 = findViewById(R.id.text3);
+        text3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(MainActivity.this, Tela2.class);
+                Intent intent= new Intent(MainActivity.this, cadastroEtapa1.class);
                 startActivity(intent);
             }
         });
-        Button button1 = findViewById(R.id.button1);
-        button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Tela3.class);
-                startActivity(intent);
-            }
-        });
-        Button anonimo = findViewById(R.id.anonimo);
-        anonimo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Tela3.class);
-                startActivity(intent);
-            }
-        });
+//        Button button1 = findViewById(R.id.button1);
+//        button1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(MainActivity.this, Tela3.class);
+//                startActivity(intent);
+//            }
+//        });
+////        Button anonimo = findViewById(R.id.anonimo);
+//        anonimo.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(MainActivity.this, Tela3.class);
+//                startActivity(intent);
+//            }
+//        });
         TextView Privacy =findViewById(R.id.Privacy);
         Privacy.setOnClickListener(new View.OnClickListener() {
             @Override
