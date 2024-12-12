@@ -29,26 +29,19 @@ public class MainActivity extends AppCompatActivity {
         text3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(MainActivity.this, cadastroEtapa1.class);
+                Intent intent= new Intent(MainActivity.this, CadastroEtapa0.class);
                 startActivity(intent);
             }
         });
-//        Button button1 = findViewById(R.id.button1);
-//        button1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(MainActivity.this, Tela3.class);
-//                startActivity(intent);
-//            }
-//        });
-////        Button anonimo = findViewById(R.id.anonimo);
-//        anonimo.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(MainActivity.this, Tela3.class);
-//                startActivity(intent);
-//            }
-//        });
+        Button button1 = findViewById(R.id.button1);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, telaPricipal.class);
+                startActivity(intent);
+            }
+        });
+
         TextView Privacy =findViewById(R.id.Privacy);
         Privacy.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -11,24 +11,24 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class cadastroetapa2 extends AppCompatActivity {
+public class CadastroEtapa0 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_cadastroetapa2);
+        setContentView(R.layout.activity_cadastro_etapa0);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Button proximo2 = findViewById(R.id.proximo2);
-        proximo2.setOnClickListener(new View.OnClickListener() {
+        Button proximo = findViewById(R.id.proximo);
+        proximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(cadastroetapa2.this, Cadastroetapa3.class);
-                        startActivity(intent);
+                Intent intent = new Intent( CadastroEtapa0.this, cadastroEtapa1.class);
+                startActivity(intent);
             }
         });
     }
