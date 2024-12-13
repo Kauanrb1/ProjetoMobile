@@ -1,6 +1,9 @@
 package com.example.apk03;
 
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,5 +34,6 @@ public class CadastroEtapa0 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }
