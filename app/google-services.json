@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430773502668",
+    "project_id": "app-senac-94bc3",
+    "storage_bucket": "app-senac-94bc3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430773502668:android:d250112431864a7a84b869",
+        "android_client_info": {
+          "package_name": "com.example.apk03"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCleOIDVV_4UQ-xLslOwVNSEm1vaGX9x6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
