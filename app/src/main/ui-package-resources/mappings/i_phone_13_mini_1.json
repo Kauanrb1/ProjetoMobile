@@ -1,0 +1,6 @@
+{
+    "target": "IPhone13Mini1",
+    "package": "com.example.apk03.iphone13mini1",
+    "generateImplementation": true,
+    "generatePreviews": true
+}
