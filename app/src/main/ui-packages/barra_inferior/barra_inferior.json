@@ -1,0 +1,468 @@
+{
+  "name": "barra_inferior",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "VmzLOtpaIRpPxbRK7Jo6C3",
+    "node": "25:56",
+    "version": "2158236159317269473",
+    "component-id": "459737dd1b2c77d5b87afe3e39a94617ee574595"
+  },
+  "default": "Barra Inferior",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Fundo"
+      },
+      {
+        "type": "group",
+        "id": "Frame 1"
+      },
+      {
+        "type": "group",
+        "id": "geo-alt"
+      },
+      {
+        "type": "group",
+        "id": "house-door"
+      },
+      {
+        "type": "group",
+        "id": "search"
+      },
+      {
+        "type": "group",
+        "id": "bell"
+      },
+      {
+        "type": "group",
+        "id": "person"
+      },
+      {
+        "type": "group",
+        "id": "v2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 25"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 26"
+      },
+      {
+        "type": "vector",
+        "id": "Union"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "Union1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "group",
+        "id": "person-frame"
+      },
+      {
+        "type": "group",
+        "id": "person1"
+      },
+      {
+        "type": "vector",
+        "id": "Subtract"
+      }
+    ],
+    "modes": {
+      "Barra Inferior": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Fundo",
+              "Frame 1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Fundo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 64.0
+              }
+            },
+            "vector-content": "fundo.svg"
+          },
+          {
+            "id": "Frame 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 24.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 17.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "geo-alt",
+              "house-door",
+              "search",
+              "bell",
+              "person"
+            ],
+            "item-spacing": 56.0,
+            "clip-content": false
+          },
+          {
+            "id": "geo-alt",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "v2",
+              "Vector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "house-door",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "search",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector1",
+              "Union1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "bell",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 20.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "person",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 26.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 26.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "person-frame",
+              "person1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "v2",
+            "presence": false,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 2.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Ellipse 25",
+              "Ellipse 26"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": 2.5,
+              "right": 2.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Ellipse 25",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            }
+          },
+          {
+            "id": "Ellipse 26",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -2.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 1.875,
+              "top": 1.25,
+              "right": 1.875,
+              "bottom": 1.25
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union.svg"
+          },
+          {
+            "id": "Vector1",
+            "presence": false,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              }
+            }
+          },
+          {
+            "id": "Union1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union1.svg"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": 1.25,
+              "right": 1.25
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "person-frame",
+            "margin": 3.25,
+            "is-structured": false,
+            "clip-content": false
+          },
+          {
+            "id": "person1",
+            "margin": 3.25,
+            "is-structured": false,
+            "children": [
+              "Subtract"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Subtract",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "subtract.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Barra Inferior",
+      "size": {
+        "width": 375.0,
+        "height": 64.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

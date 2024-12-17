@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "728944040568",
-    "project_id": "estetify-1",
-    "storage_bucket": "estetify-1.firebasestorage.app"
+    "project_number": "430773502668",
+    "project_id": "app-senac-94bc3",
+    "storage_bucket": "app-senac-94bc3.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:728944040568:android:768e16d0a49e246af22b8d",
+        "mobilesdk_app_id": "1:430773502668:android:d250112431864a7a84b869",
         "android_client_info": {
           "package_name": "com.example.apk03"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA1oey_2g4pIkUOb45JzQFgvA4nDbuMxGg"
+          "current_key": "AIzaSyCleOIDVV_4UQ-xLslOwVNSEm1vaGX9x6Y"
         }
       ],
       "services": {
