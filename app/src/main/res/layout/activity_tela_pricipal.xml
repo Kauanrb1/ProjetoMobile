@@ -8,39 +8,54 @@
     android:layout_height="match_parent"
     tools:context=".telaPricipal">
 
-
-    <CheckedTextView
-        android:layout_width="100dp"
+    <Button
+        android:id="@+id/Geral"
+        android:layout_width="110dp"
         android:layout_height="45dp"
-        android:background="@drawable/checkbox_background"
-        android:gravity="center"
-        android:text="    Geral"
-        android:textSize="18sp"
-        android:padding="10dp"
+        android:background="@drawable/button_transparente_borda"
+        android:onClick="Geral"
+        android:text="Geral"
+        android:textColor="@color/black"
+        android:textColorLink="#020202"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.120"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04"
-         />
+        app:layout_constraintVertical_bias="0.04" />
 
-    <CheckedTextView
-        android:layout_width="100dp"
+    <Button
+        android:id="@+id/Produtos"
+        android:layout_width="110dp"
         android:layout_height="45dp"
-        android:background="@drawable/checkbox_background"
-        android:gravity="center"
+        android:background="@drawable/button_transparente_borda"
+        android:onClick="Produtos"
+        android:text="Produtos"
+        android:textColor="@color/black"
+        android:textColorLink="#020202"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+
+    <Button
+        android:id="@+id/Serviços"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:background="@drawable/button_transparente_borda"
+        android:onClick="Serviços"
         android:text="Serviços"
-        android:textSize="18sp"
-        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorLink="#020202"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.880"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04"
-        />
-
+        app:layout_constraintVertical_bias="0.04" />
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -76,21 +91,7 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-    <CheckedTextView
-        android:layout_width="100dp"
-        android:layout_height="45dp"
-        android:background="@drawable/checkbox_background"
-        android:gravity="center"
-        android:text=" Produtos"
-        android:textSize="18sp"
-        android:padding="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.500"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04"
-        />
+
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
