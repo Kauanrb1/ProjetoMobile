@@ -1,0 +1,6 @@
+{
+    "target": "BarraInferior",
+    "package": "com.example.apk03.barrainferior",
+    "generateImplementation": true,
+    "generatePreviews": true
+}
