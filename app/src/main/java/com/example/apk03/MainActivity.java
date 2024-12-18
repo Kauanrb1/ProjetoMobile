@@ -96,7 +96,7 @@ String[] mensagens = {"Preencha todos os campos!", "Login realizado com sucesso!
                 buider.show();
             }
         });
-
+/*
 google.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
@@ -117,7 +117,7 @@ google.setOnClickListener(new View.OnClickListener() {
     });
     }
 });
-
+*/
 }
     private void IrParaPerfilActivity(){
         Intent intent = new Intent(MainActivity.this, telaPricipal.class);
