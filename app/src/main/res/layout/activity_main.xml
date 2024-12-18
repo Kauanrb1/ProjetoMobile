@@ -71,7 +71,7 @@
         android:layout_marginTop="470dp"
         android:background="@drawable/button_transparente_borda"
         android:onClick="Entrar"
-        android:text="Login"
+        android:text="Entrar"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

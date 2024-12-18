@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="0.433" />
 
     <EditText
-        android:id="@+id/texto2"
+        android:id="@+id/c"
         android:layout_width="307dp"
         android:layout_height="56dp"
         android:layout_marginTop="344dp"
